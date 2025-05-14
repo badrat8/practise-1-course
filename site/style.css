@@ -1,0 +1,55 @@
+/* Сброс отступов и базовые стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Стили для шапки */
+  header {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+  }
+  
+  /* Навигация по центру с отступами */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* расстояние между пунктами */
+  }
+  
+  /* Ссылки в меню */
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  /* Эффект наведения */
+  nav a:hover {
+    color: #0077cc;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 60px 20px 20px;
+    background-color: #ffffff;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  /* Аннотация */
+  .annotation {
+    max-width: 800px;
+    margin: 40px auto 0;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+    text-align: center; /* Центрируем текст */
+  }
