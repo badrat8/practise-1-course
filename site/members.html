@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Участники</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Логотип Политеха">
+        </div>
+
+        <div class="project-title">ИТ-сервисы для Цифрового университета</div>
+
+        <div class="menu">
+            <a href="main.html">Главная</a>
+            <a href="about.html">О проекте</a>
+            <a href="members.html">Участники</a>
+            <a href="#">Журнал</a>
+            <a href="#">Ресурсы</a>
+        </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Участники</h1>
+  </section>
+
+  <main class="members-page">
+    <!-- Первый участник (вы) -->
+    <div class="main-member">
+      <h2>Махоткин Александр Михайлович</h2>
+      <p>Работа над реализацией сервиса визуализации данных колл-центра</p>
+    </div>
+
+    <div class="contribution-block">
+      <div class="photo-container-1">
+        <img src="grafana_archytect.png" alt="Фотография участника">
+      </div>
+      <div class="contribution-text">
+        <p>
+        Для реализации была разработана архитектура (представлена на&nbsp;схеме).
+        Вуз использует систему Asterisk в&nbsp;качестве автоматической телефонной станции,
+        данные из&nbsp;нее собираются в&nbsp;базу данных при помощи стороннего приложения и
+        подключаются к&nbsp;сервису Grafana для дальнейшей визуализации.
+        </p>
+      </div>
+    </div>
+
+    <div class="contribution-block">
+      <div class="contribution-text">
+        <p>
+        Фрагмент скрипта, который подключается к AMI Asterisk, на языке Python.
+        Данный код забирает данные из телефонии и запускает их обработчик.
+        Сохраняются имя очереди, количество звонков (принятых и отклонённых), время
+        удержания, звонка и так далее. После чего эти данные записываются в строки
+        базы данных.
+        </p>
+      </div>
+      <div class="photo-container-2">
+        <img src="python_script.png" alt="Фотография участника">
+      </div>
+    </div>
+
+    <div class="contribution-block">
+      <div class="photo-container-3">
+        <img src="grafana_sql.png" alt="Фотография участника">
+      </div>
+      <div class="contribution-text">
+        <p>
+        Также мне удалось попрактиковаться в написании sql запросов в Grafana.
+        </p>
+      </div>
+    </div>
+
+    <div class="contribution-block">
+      <div class="contribution-text">
+        <p>
+        На данный момент реализовано только два параметра, впереди реализация еще,
+        как минимум, десяти. Система ещё не готова к работе, но мы проводим тесты. 
+        В будущем также планируется разработка полноценной промежуточной среды для сбора
+        данных.
+        </p>
+      </div>
+      <div class="photo-container-4">
+        <img src="grafana-result.png" alt="Фотография участника">
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>
