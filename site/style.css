@@ -416,3 +416,33 @@ body {
 }
 
 
+/* resource */
+
+
+.resources-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.resources-list a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--primary-color);
+  padding: 12px 24px;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.resources-list a:hover {
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+}
+
+
+
